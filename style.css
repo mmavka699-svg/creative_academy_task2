@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    background-color: #10213B;
+    padding: 30px 120px;
+
+}
+.logo{
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #fff;
+
+}
+.logo .highlight{
+    color: #A78BFA;   
+}
+.links {
+    display: flex;      
+    gap: 20px;       
+}
+.links a{
+    text-decoration: none;   
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+}
+.links a:hover {
+    color: #A78BFA;
+}
+
+
+.home{
+    background-image: url(image/car_road.jpg);
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-left: 8%;
+    background-size: 100% 100%;
+}
+.home_title{
+
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.home_content{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.home_title .highlight{
+    color: #A78BFA;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #8b5cf6;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px ;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+}
+
+.btn:hover {
+    background-color: #6D28D9; 
+    transform: translateY(-2px); 
+}
+
+
+.Courses {
+    background-color: #f8fafc;
+    padding: 60px 8%;
+    font-family: Arial, sans-serif;
+}
+
+.courses_title {
+    font-family: Arial, sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #172b4d;
+    margin-bottom: 12px;
+}
+
+.courses_subtitle {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #64748b;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 100%;
+    
+}
+
+.cards > * {
+    flex: 1;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: transform 0.2s ease;
+}
+
+.cards > div:hover {
+    transform: translateY(-4px);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+
+.cards .Web_Development { 
+    background-color: #f3e8ff; 
+    
+}
+.cards .Web_Development:hover {
+    background-color: #EEE8FF;
+    transform: translateY(-4px);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+
+.cards .UIUX_Design {
+     background-color: #e0f2fe; 
+    }
+
+.cards .UIUX_Design:hover {
+    background-color:#E0F2FE ;
+    transform: translateY(-4px);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}  
+.cards .Data_Science {
+     background-color: #dcfce7; 
+}
+cards .Data_Science:hover {
+    background-color:#DFF8EE ;
+    transform: translateY(-4px);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+
+.high {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.card_title {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    line-height: 35px;
+    color: #172b4d;
+}
+
+.badge-new {
+    background-color: #8b5cf6;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #fff;;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+.card_content {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #475569;
+}
+
+.cards a {
+    text-decoration: none;
+    color: #8b5cf6;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    width: fit-content;
+}
+
+.cards a:hover {
+    color: #4C1D95;
+}
+
+.about {
+    width: 100%;
+    background-color: #0f1c3f;
+    text-align: center;
+    align-items: center;
+    padding: 40px 8%;
+    gap: 12px;
+    
+}
+.about .logo {
+    justify-content: center;
+    
+}
+.about_content{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #cbd5e1;
+}
